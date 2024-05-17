@@ -1,6 +1,6 @@
 import { books, authors, genres, BOOKS_PER_PAGE } from "./data.js";
 
-class BookPreview extends HTMLElement {
+export class BookPreview extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
