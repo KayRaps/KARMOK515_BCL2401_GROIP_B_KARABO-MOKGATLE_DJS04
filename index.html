@@ -31,7 +31,7 @@
     <script type="module" src="./book-preview.js"></script>
   </head>
   <body>
-
+    
     <header class="header">
       <div class="header__inner">
         <div class="header__logo">
@@ -139,6 +139,8 @@
       </div>
     </dialog>
 
+    <book-preview data-preview="./book-preview.js"></book-preview>
+
     <dialog class="overlay" data-settings-overlay>
       <div class="overlay__content">
         <form class="overlay__form" data-settings-form id="settings">
@@ -151,6 +153,7 @@
             </select>
           </label>
         </form>
+  
 
         <div class="overlay__row">
           <button class="overlay__button" data-settings-cancel>Cancel</button>
@@ -158,7 +161,7 @@
         </div>
       </div>
     </dialog>
-    
+ 
     <div class="backdrop"></div>
   </body>
 </html>

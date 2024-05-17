@@ -11,7 +11,10 @@ export class BookPreview extends HTMLElement {
     this.initElements();
     this.addEventListeners();
     this.initializeData();
+    customElements.define('book-preview', BookPreview);
   }
+  
+
 
   render() {
     this.shadowRoot.innerHTML = `
