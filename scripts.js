@@ -1,5 +1,8 @@
 import { books, authors, genres, BOOKS_PER_PAGE } from "./data.js";
 import "./book-preview.js"; // Updated to import the correct file
+import './overlay-component.js';
+import './theme-switcher.js';
+import './book-list.js';
 
 let page = 1;
 let matches = books;
